@@ -3,6 +3,7 @@ import Header from '@/components/Header'
 import UseCases from '@/components/UseCases'
 import PitchDeck from '@/components/PitchDeck'
 import VideoDemo from '@/components/VideoDemo'
+import ListStructure from '@/components/ListStructure'
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
         <UseCases />
         <PitchDeck />
         <VideoDemo />
+        <ListStructure />
     </main>
   )
 }
