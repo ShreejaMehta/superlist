@@ -41,5 +41,14 @@
  
     --radius: 0.5rem; */
   }
+  .scrolled {
+    overflow: hidden;
+  }
+  
+  .scrolled-card {
+    transition: all 0.3s ease; /* Adjust the transition duration as needed */
+    transform: scale(0.8); /* Adjust the scale factor as needed */
+  }
+  
 }
  

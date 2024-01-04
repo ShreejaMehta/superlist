@@ -12,11 +12,11 @@ const VideoDemo = () => {
   return (
     // fix spaceing between buttons
     <div className="h-screen flex items-center justify-center">
-    <Card className="flex flex-row border-2 max-h-full w-11/12 bg-[#000] rounded-[50px] px-24 pb-8" >
+    <Card className="flex flex-row border-2 max-h-full w-11/12 bg-[#181824] rounded-[50px] px-24 pb-[10%]" >
     <div className="flex flex-col realtive mx-auto min-h-min overflow-hidden justify-center rounded-2xl">
           <p
-            className="font-bold text-[80px] text-center" 
-            style={{ color: '#fff '}} >
+            className="font-bold text-[80px] text-center leading-none" 
+            style={{ color: '#dedeeb'}} >
             You've never <br />
             worked <span className="text-[#f84f39]">this fast</span> 
           </p>
