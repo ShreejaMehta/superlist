@@ -1,15 +1,37 @@
 import React from 'react'
-import { Button } from "@/components/ui/button"
-
-
-const Header = () => {
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
+import Image from 'next/image'
+const VideoDemo = () => {
   return (
     // fix spaceing between buttons
-    <div className="flex justify-between rounded p-10" >
-        <Button className="hover:text-red text-[#72718a] rounded-full  m-10 text-lg" variant="ghost">Try Our Beta</Button>
-        <Button className="border border-[#72718a] hover:text-red text-[#72718a] rounded-full  m-10 text-lg" variant="outline">Sign Up</Button>
-    </div>
+    <div className="h-screen flex items-center justify-center">
+    <Card className="flex flex-row border-2 max-h-full w-11/12 bg-[#000] rounded-[50px] px-24 pb-8" >
+    <div className="flex flex-col realtive mx-auto min-h-min overflow-hidden justify-center rounded-2xl">
+          <p
+            className="font-bold text-[80px] text-center" 
+            style={{ color: '#fff '}} >
+            You've never <br />
+            worked <span className="text-[#f84f39]">this fast</span> 
+          </p>
+
+          <Image src={"/demo.gif"}  
+          width={942}
+          height={590}
+          priority
+          alt={"demo"}
+          className="rounded-xl "
+          />
+        </div>
+    </Card>
+  </div>
   )
 }
 
-export default Header
+export default VideoDemo
