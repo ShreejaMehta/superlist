@@ -17,6 +17,7 @@ interface CardProps {
   title3: string;
   src: string;
   color: string;
+  hue: string;
   i: number;
 }
 
@@ -26,11 +27,12 @@ const CardComponent: React.FC<CardProps> = ({
   title3,
   src,
   color,
+  hue,
   i,
 }) => {
   return (
     <div className="h-screen flex items-center justify-center sticky top-0 p-24">
-      <Card className="flex flex-row border-2 max-w-max max-h-fit bg-[#fff] rounded-[50px]">
+      <Card className="flex flex-row border-2 max-w-max max-h-fit rounded-[50px]" style={{background:hue}}>
         <div className="flex flex-col realtive mx-auto min-h-min overflow-hidden justify-center w-1/2 rounded-2xl">
           <p
             className="font-bold text-3xl text-center"
