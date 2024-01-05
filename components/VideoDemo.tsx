@@ -18,7 +18,7 @@ const VideoDemo = () => {
             className="font-bold text-[80px] text-center leading-none" 
             style={{ color: '#dedeeb'}} >
             You've never <br />
-            worked <span className="text-[#f84f39]">this fast</span> 
+            worked <span className="text-[#f84f39] ">this fast</span> 
           </p>
 
           <Image src={"/demo.gif"}  

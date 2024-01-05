@@ -46,7 +46,7 @@ const CardComponent: React.FC<CardProps> = ({
 
         <div className="flex flex-col justify-center w-1/2 relative mx-auto overflow-hidden">
           <img
-            className="object-contain rounded-[50px]"
+            className="object-contain rounded-r-[50px]"
             src={src}
             alt="Daily todo"
           />

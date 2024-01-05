@@ -1,17 +1,6 @@
 // Import necessary libraries and components
 'use client';
 import React, { useState } from "react";
-import Image from "next/image";
-
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardFooter,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
-
 interface ListProps {
   text: string;
   desc: string;
