@@ -21,13 +21,16 @@ interface ListProps {
 const ListView: React.FC<ListProps> = ({ text, desc, i }) => {
   const [isHovered, setIsHovered] = useState(false);
 
-  const opacity = 1 - i * 0.05;
-    const themeColors = ["#f84f39", "#3f86cf", "#2a966f"];
+  const opacity = 1 - i * 0.08;
+    const themeColors = ["#f84f39", "#3f86cf", "#2a966f","#6b66da"];
   const getRandomColor = () => {
     const randomIndex = Math.floor(Math.random() * themeColors.length);
     return themeColors[randomIndex];
   };
-
+// // --primary: 9, 85%, 61%;
+// --secondary: 210, 62%, 55%;
+// --tertiary: 154, 54%, 53%;
+// --quaternary: 254, 50%, 50% ;
   return (
     <div className="flex items-center justify-left top-0 px-24 bg-[#181824]">
       <p
@@ -38,7 +41,7 @@ const ListView: React.FC<ListProps> = ({ text, desc, i }) => {
       >
         {text}
         {isHovered && (
-          <span className="absolute left-full top-1/2 transform -translate-y-1/2 p-4 text-white text-left rounded-md" style={{ width: "200px", fontSize: "14px" }}>
+          <span className="absolute left-full top-1/2 transform -translate-y-1/2 p-4 text-white text-left rounded-md font-light" style={{ width: "200px", fontSize: "12px" }}>
             {desc}
           </span>
         )}

@@ -5,9 +5,9 @@ interface HomeProps {}
 
 const ListStructure: React.FC<HomeProps> = () => {
   return (
-    <main className="bg-[#181824]">
+    <main className="bg-[#181824] p-24">
         <p
-            className="font-bold text-[60px] leading-none px-24" 
+            className="font-bold text-[40px] leading-none px-24" 
             style={{ color: '#dedeeb'}} >
             Everything <br />
             <span className="text-[#f84f39]">a team needs</span> 

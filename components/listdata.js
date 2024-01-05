@@ -41,7 +41,7 @@ export const listData = [
     },
     {
       "text": "Fast AF",
-      "desc": "Fast AF"
+      "desc": ""
     },
   ]
   
