@@ -41,6 +41,11 @@
  
     --radius: 0.5rem; */
   }
+  body{
+    border-color: hsl(var(--primary));
+    border-top: 20px solid hsl(var(--primary));
+    background-color: hsl(var(--primary));
+  }
   .scrolled {
     overflow: hidden;
   }

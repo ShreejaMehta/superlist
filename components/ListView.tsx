@@ -27,10 +27,6 @@ const ListView: React.FC<ListProps> = ({ text, desc, i }) => {
     const randomIndex = Math.floor(Math.random() * themeColors.length);
     return themeColors[randomIndex];
   };
-// // --primary: 9, 85%, 61%;
-// --secondary: 210, 62%, 55%;
-// --tertiary: 154, 54%, 53%;
-// --quaternary: 254, 50%, 50% ;
   return (
     <div className="flex items-center justify-left top-0 px-24 bg-[#181824]">
       <p

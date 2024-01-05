@@ -4,6 +4,7 @@ import UseCases from '@/components/UseCases'
 import PitchDeck from '@/components/PitchDeck'
 import VideoDemo from '@/components/VideoDemo'
 import ListStructure from '@/components/ListStructure'
+import JoinBeta from '@/components/JoinBeta'
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
         <PitchDeck />
         <VideoDemo />
         <ListStructure />
+        <JoinBeta />
     </main>
   )
 }
