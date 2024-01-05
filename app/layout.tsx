@@ -8,7 +8,7 @@ display: 'swap',})
 
 export const metadata: Metadata = {
   title: 'Superlist',
-  description: 'Trial',
+  description: 'Clone of SuperList Website',
 }
 
 export default function RootLayout({
