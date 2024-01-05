@@ -5,6 +5,7 @@ import PitchDeck from '@/components/PitchDeck'
 import VideoDemo from '@/components/VideoDemo'
 import ListStructure from '@/components/ListStructure'
 import JoinBeta from '@/components/JoinBeta'
+import Footer from '@/components/Footer'
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
         <VideoDemo />
         <ListStructure />
         <JoinBeta />
+        <Footer />
     </main>
   )
 }
