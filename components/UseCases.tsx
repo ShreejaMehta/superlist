@@ -68,6 +68,7 @@ const UseCases: React.FC<UseCasesProps> = () => {
     // Clear the interval when the component unmounts
     return () => clearInterval(intervalId);
   }, [currentImageIndex]); // Include currentImageIndex as a dependency
+  const [isHovered, setIsHovered] = useState<boolean>(false);
 
   // JSX structure for the component
   return (
@@ -86,7 +87,8 @@ const UseCases: React.FC<UseCasesProps> = () => {
           {buttons.map((button, index) => (
             <Button
               key={index}
-              className="border border-[#72718a] hover:text-red text-[#72718a] rounded-full m-10 text-lg"
+              className="border border-[#72718a] hover:text-[#000] text-[#72718a] rounded-full m-10 text-lg"
+              style={{color:button.color}}
               variant="ghost"
               onClick={() => handleButtonClick(button.image)}
             >

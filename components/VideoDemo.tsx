@@ -40,7 +40,7 @@ const VideoDemo = () => {
             className="font-bold text-[80px] text-center leading-none p-10"
             style={{ color: '#dedeeb' }}
           >
-            You've never <br />
+            You ve never <br />
             worked <span className="text-[#f84f39] ">this fast</span>
           </p>
         
