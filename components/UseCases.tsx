@@ -68,10 +68,9 @@ const UseCases: React.FC<UseCasesProps> = () => {
     <div className="grid items-center justify-center bg-[#f4f3fa]">
       <div className="flex flex-col items-center justify-center bg-[#f4f3fa]">
         <Image src="/superlist.png" alt="Vercel Logo" width={140} height={34} priority />
-        <Image src="/doodle.png" alt="Vercel Logo" width={140} height={34} priority />
         <p className="font-bold text-8xl text-[#26253b] text-center">Home to</p>
         <p className="font-bold text-8xl text-[#26253b] text-center">
-          all your <span className="text-[#f84f39]">Lists</span>
+          all your <span className="text-[#3f86cf] italic">Lists</span>
         </p>
         <div>
           {buttons.map((button, index) => (
@@ -99,5 +98,4 @@ const UseCases: React.FC<UseCasesProps> = () => {
   );
 };
 
-// Export the component
 export default UseCases;

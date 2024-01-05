@@ -10,7 +10,7 @@ const ListStructure: React.FC<HomeProps> = () => {
             className="font-bold text-[40px] leading-none px-24" 
             style={{ color: '#dedeeb'}} >
             Everything <br />
-            <span className="text-[#f84f39]">a team needs</span> 
+            <span className="text-[#3f86cf] italic">a team needs</span> 
           </p>
         <div>
         {listData.map((listData, i) => (
@@ -19,7 +19,7 @@ const ListStructure: React.FC<HomeProps> = () => {
       ))}
         </div>
     
-    <p className="font-bold text-[20px] leading-none px-24" 
+    <p className="font-bold text-[20px] leading-none px-24 italic" 
             style={{ color: '#dedeeb'}}>The list goes on....</p>
     
     </main>

@@ -32,24 +32,25 @@ const CardComponent: React.FC<CardProps> = ({
 }) => {
   return (
     <div className="h-screen flex items-center justify-center sticky top-0 p-24">
-      <Card className="flex flex-row border-2 max-w-max max-h-fit rounded-[50px]" style={{background:hue}}>
+      <Card className="flex flex-row border-2 max-w-max max-h-fit rounded-[50px] bg-white" >
+        <div className="flex flex-col justify-center w-1/2 relative mx-auto overflow-hidden">
+          <img
+            className="object-contain rounded-l-[50px]"
+            src={src}
+            alt="Daily todo"
+          />
+        </div>
+
         <div className="flex flex-col realtive mx-auto min-h-min overflow-hidden justify-center w-1/2 rounded-2xl">
           <p
-            className="font-bold text-3xl text-center"
+            className="font-bold text-3xl text-center italic"
             style={{ color: color }}
+            
           >
             {title1}
           </p>
           <p className="font-bold text-3xl text-center">{title2}</p>
           <p className="font-bold text-3xl text-center">{title3}</p>
-        </div>
-
-        <div className="flex flex-col justify-center w-1/2 relative mx-auto overflow-hidden">
-          <img
-            className="object-contain rounded-r-[50px]"
-            src={src}
-            alt="Daily todo"
-          />
         </div>
       </Card>
     </div>

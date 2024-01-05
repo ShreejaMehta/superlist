@@ -30,7 +30,7 @@ const Header = () => {
     <div className="flex justify-between rounded p-10">
       <Drawer>
         <DrawerTrigger className="hover:text-red text-[#72718a] rounded-full  m-10 text-lg ">
-          Try Out Beta
+          Try Our Beta
         </DrawerTrigger>
         <DrawerContent className="bg-white">
           <DrawerTitle>Available On</DrawerTitle>

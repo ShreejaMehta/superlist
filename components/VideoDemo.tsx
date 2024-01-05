@@ -27,12 +27,12 @@ const VideoDemo = () => {
 
   // Set a smaller initial scale factor and calculate the scale factor based on the scroll position
   const initialScaleFactor = 0.1;
-  const scaleFactor = initialScaleFactor + scrollY * 0.000156;
+  const scaleFactor = initialScaleFactor + scrollY * 0.00015;
 
   return (
     <div className="h-screen flex items-center justify-center ">
       <Card
-        className="flex flex-row max-h-full w-11/12 bg-[#181824] rounded-[50px]  border-none px-24 pb-[10%]"
+        className="flex flex-row max-h-full w-11/12 bg-[#181824] rounded-[50px] border-none px-24 pb-[10%]"
         style={{ transform: `scale(${scaleFactor})` }}
       >
         <div className="flex flex-col realtive mx-auto min-h-min overflow-hidden justify-center rounded-2xl">
@@ -41,7 +41,7 @@ const VideoDemo = () => {
             style={{ color: '#dedeeb' }}
           >
             You&apos;ve never <br />
-            worked <span className="text-[#f84f39] ">this fast</span>
+            worked <span className="text-[#3f86cf] italic">this fast</span>
           </p>
         
           <Image

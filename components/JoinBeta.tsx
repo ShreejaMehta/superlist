@@ -20,7 +20,7 @@ const JoinBeta: React.FC = () => {
     return themeColors[randomIndex];
   };
 
-  const [backgroundColor, setBackgroundColor] = useState<string>("#f84f39");
+  const [backgroundColor, setBackgroundColor] = useState<string>("#3f86cf");
   const [isHovered, setIsHovered] = useState<boolean>(false);
 
   let timeoutId: NodeJS.Timeout;

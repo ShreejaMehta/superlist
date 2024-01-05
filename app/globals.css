@@ -42,9 +42,9 @@
     --radius: 0.5rem; */
   }
   body{
-    border-color: hsl(var(--primary));
-    border-top: 20px solid hsl(var(--primary));
-    background-color: hsl(var(--primary));
+    border-color: hsl(var(--secondary));
+    border-top: 20px solid hsl(var(--secondary));
+    background-color: hsl(var(--secondary));
   }
   .scrolled {
     overflow: hidden;

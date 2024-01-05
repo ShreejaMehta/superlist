@@ -32,7 +32,7 @@ module.exports = {
         },
       },
       fontFamily: {
-        sans: ["Haffer", "sans-serif"],
+        sans: ["Varela", "sans-serif"],
       },
   },
   plugins: [require("tailwindcss-animate")],

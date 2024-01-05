@@ -1,10 +1,14 @@
 import type { Metadata } from 'next'
 import { Varela } from 'next/font/google'
+import { Dancing_Script } from 'next/font/google'
 import './globals.css'
 
 const varela = Varela( {weight: '400',
 subsets: ['latin'],
 display: 'swap',})
+
+const dancing = Dancing_Script( {weight: '400', subsets: ['latin'], display: 'swap',})
+
 
 export const metadata: Metadata = {
   title: 'Superlist',
